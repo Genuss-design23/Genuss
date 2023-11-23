@@ -163,6 +163,7 @@ body {
 	transition: 0.5s;
 	height: 400px;
 	background-color: rgba(255, 189, 244, 0.3);
+	box-shadow: 24px 33px 46px -20px rgba(0,153,204,1);
 }
 
 .jobs:hover{
