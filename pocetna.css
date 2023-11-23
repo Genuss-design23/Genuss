@@ -162,7 +162,8 @@ body {
 	border: 3px dotted #0099cc;
 	margin-top: 40px;
 	transition: 0.5s;
-	height: 400px;
+	min-height: 450px;
+	height: auto;
 	background-color: rgba(255, 189, 244, 0.3);
 }
 
@@ -189,7 +190,7 @@ body {
 	height: 150px;
 	margin-top: 30px;
 	margin-bottom: 20px;
-	margin-left: 100px;
+	margin-left: 95px;
 }
 
 .container .jobs h3{
@@ -463,8 +464,20 @@ body {
 		font-size: 36px;
 		margin-top: 50px;
 		margin-bottom: -10px;
-	}  
-	  
+	}
+
+	.container .jobs{
+		margin-left: 10%;
+	}
+
+	.container .jobs img{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 110px;
+		width: 115px;
+		height: 115px;
+	}
+
 	.goal-section {
 		margin-top: 50px;
 	}
